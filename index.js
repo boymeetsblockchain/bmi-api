@@ -1,14 +1,13 @@
 // Backend server code (index.js)
 const express = require('express');
 const cors = require('cors')
-const { OpenAI } = require('openai'); 
 const dotenv = require('dotenv').config()
 
 const app = express();
 const port = 5000;
 
 
-const allowedOrigins = ['http://localhost:3000',];
+const allowedOrigins = ['http://localhost:3000',"https://bmi-lac.vercel.app/"];
 
 app.use(express.json());
 app.use(cors({ credentials: true, origin: allowedOrigins }));
