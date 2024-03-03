@@ -7,7 +7,7 @@ const app = express();
 const port = 5000;
 
 
-const allowedOrigins = ['http://localhost:3000',"https://bmi-lac.vercel.app/"];
+const allowedOrigins = ['http://localhost:3000',"https://bmi-lac.vercel.app"];
 
 app.use(express.json());
 app.use(cors({ credentials: true, origin: allowedOrigins }));
