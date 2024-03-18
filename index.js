@@ -62,7 +62,7 @@ const modalities = {
     ]
   },
   obesity: {
-    bmiType: "Obesity",
+    bmiType: "Obesed",
     diet: [
       "Adopt a well-balanced, calorie-controlled diet",
       "Keep a food journal to track eating habits",
