@@ -27,12 +27,15 @@ const modalities = {
     diet: [
       "Increase calorie intake with nutrient-dense foods",
       "Incorporate protein-rich foods",
-      "Consume frequent small meals and snacks"
+      "Consume frequent small meals and snacks",
+      "Add healthy fats such as avocados, nuts, and olive oil to meals",
+      "Include carbohydrate sources like whole grains, fruits, and starchy vegetables"
     ],
     physical_therapy: [
       "Strength training exercises",
       "Resistance exercises",
-      "Balance and coordination exercises"
+      "Balance and coordination exercises",
+      "Low-impact cardio exercises such as swimming or cycling"
     ]
   },
   normal_weight: {
@@ -40,12 +43,15 @@ const modalities = {
     diet: [
       "Maintain a balanced diet",
       "Practice portion control and mindful eating",
-      "Stay hydrated by drinking plenty of water"
+      "Stay hydrated by drinking plenty of water",
+      "Include a variety of colorful fruits and vegetables in meals",
+      "Incorporate lean protein sources such as poultry, fish, tofu, or legumes"
     ],
     physical_therapy: [
       "Regular aerobic exercises",
       "Flexibility and stretching exercises",
-      "Incorporate recreational activities like yoga or Pilates"
+      "Incorporate recreational activities like yoga or Pilates",
+      "Moderate-intensity cardio workouts like brisk walking or jogging"
     ]
   },
   overweight: {
@@ -53,28 +59,35 @@ const modalities = {
     diet: [
       "Focus on portion control and reducing calorie intake",
       "Increase intake of fruits, vegetables, and fiber-rich foods",
-      "Consider consulting with a registered dietitian"
+      "Consider consulting with a registered dietitian",
+      "Limit processed foods, sugary drinks, and high-fat snacks",
+      "Choose lean protein sources and whole grains over refined carbohydrates"
     ],
     physical_therapy: [
       "High-intensity interval training (HIIT) workouts",
       "Strength training exercises",
-      "Participate in group fitness classes or sports activities"
+      "Participate in group fitness classes or sports activities",
+      "Incorporate daily physical activity such as walking, cycling, or swimming"
     ]
   },
   obesity: {
-    bmiType: "Obesed",
+    bmiType: "Obesity",
     diet: [
       "Adopt a well-balanced, calorie-controlled diet",
       "Keep a food journal to track eating habits",
-      "Seek support from healthcare professionals or registered dietitians"
+      "Seek support from healthcare professionals or registered dietitians",
+      "Focus on whole, minimally processed foods and avoid excessive sugar and saturated fats",
+      "Monitor portion sizes and practice mindful eating"
     ],
     physical_therapy: [
       "Regular aerobic exercises combined with strength training",
       "Work with a certified personal trainer or physical therapist",
-      "Engage in enjoyable activities for long-term adherence"
+      "Engage in enjoyable activities for long-term adherence",
+      "Incorporate interval training to increase calorie burn and improve cardiovascular health"
     ]
   }
 };
+
 
 
 // Endpoint to handle BMI input and return modalities
